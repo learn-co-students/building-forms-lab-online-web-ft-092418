@@ -8,7 +8,7 @@ class App extends Component {
         <BandsContainer />
       </div>
     );
-  }
+  };
 };
 
 export default App;
