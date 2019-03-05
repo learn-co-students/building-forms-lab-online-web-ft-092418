@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import BandsContainer from './containers/BandsContainer';
+import { connect } from 'react-redux';
 
 class App extends Component {
   render() {
@@ -11,4 +12,4 @@ class App extends Component {
   }
 };
 
-export default App;
+export default connect()(App);
